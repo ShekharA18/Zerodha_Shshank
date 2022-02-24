@@ -63,7 +63,7 @@ public class KiteLoginPage
 	{
 		Actions act = new Actions(driver);
 		act.moveToElement(UserIdLogo).click().perform();
-		//UserIdLogo.click();
+		UserIdLogo.click();
 	}
 	public void ClickKiteLoginPageLogoutBtn() 
 	{
